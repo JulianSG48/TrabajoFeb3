@@ -7,13 +7,20 @@
 #-------------------------------------------------------
 
 def elementos(lista):
+
     return len(lista) == len(set(lista))
 
+
 ejemplolista = [1,2,3,4,5,6]
+
 if elementos(ejemplolista):
+
     print("En la lista no hay elementos repetidos")
+
 else:
+
     print("En la lista hay elementos repetidos")
+    
 
 #-------------------------------------------------------
 #Ejercicio 2: Determinar si un elemento de una lista es una cadena palíndrome 
